@@ -1,0 +1,163 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+html {
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+::-moz-selection {
+	background: #5C0819;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background: #5C0819;
+	color: #fff;
+	text-shadow: none;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 3px solid #4A4A4A;
+	margin: 1em 0;
+	padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+	vertical-align: middle;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.browserupgrade {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+/** Boiler Plate end **/
+
+.content {
+	min-height: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding: 1em;
+}
+header {
+	font-size: 5rem;
+}
+header > hr {
+	margin: .5em 0;
+}
+.site-title,
+.site-subtitle {
+	font-family: 'Avenir Next';
+	font-weight: Bold;
+	color: #4A4A4A;
+}
+.site-subtitle {
+	font-size: 3rem
+}
+.social-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.social-nav > a {
+	flex: 1;
+}
+.social-icon {
+	height: 1em;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.github-icon-sm {
+	background-image: url(images/github-icon-sm.svg);
+}
+.linkedin-icon-black {
+	background-image: url(images/linkedin-icon-black.svg);
+}
+
+.site-footer {
+	font-size: 8rem;
+	height: 1em;
+	background: url(images/stardust.png);
+}
+
+.site-logo {
+	height: 1em;
+}
+.mobius-logo-sm {
+	background: url(images/8mobius8-logo-sm.svg) center center no-repeat;
+}
+
+/* ==========================================================================
+   Helper classes
+	 ========================================================================== */
+
+.hidden {
+  display: none !important;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  -webkit-clip-path: none;
+  clip-path: none;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+@media only screen and (min-width: 35em) {
+	.site-footer{
+		font-size: 10rem;
+	}
+}
