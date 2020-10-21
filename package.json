@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/8Mobius8/8mobius8.github.io.git"
   },
+  "scripts": {
+    "dev": "gulp dev"
+  },
   "author": "Mark Odell <m4rk.odell@gmail.com>",
   "license": "MIT",
   "devDependencies": {
