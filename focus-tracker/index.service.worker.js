@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1732345771|5437804';
+const CACHE_VERSION = '1732346528|5901940';
 /** @type {string} */
 const CACHE_PREFIX = 'Focus Tracker-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
