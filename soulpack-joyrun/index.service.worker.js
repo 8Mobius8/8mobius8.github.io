@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1735286321|7777767';
+const CACHE_VERSION = '1735287074|6301455';
 /** @type {string} */
 const CACHE_PREFIX = 'Soulpack Joyrun-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
